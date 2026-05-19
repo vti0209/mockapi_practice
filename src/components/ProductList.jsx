@@ -78,7 +78,7 @@ function ProductList() {
     setShowAddForm(false);
   };
 
-  if (loading) return <div className="loading">⏳ Đang tải...</div>;
+  if (loading) return <div className="loading">Đang tải...</div>;
 
   const isModalOpen = editingProduct !== null || showAddForm;
 
@@ -99,7 +99,7 @@ function ProductList() {
         + Thêm sản phẩm mới
       </button>
 
-      {/* Danh sách sản phẩm - bị mờ khi modal mở */}
+      {/* Danh sách sản phẩm*/}
       <div className={`products-grid ${isModalOpen ? 'modal-open' : ''}`}>
         {products.map(product => (
           <ProductItem

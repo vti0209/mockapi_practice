@@ -21,13 +21,13 @@ function ProductCatalog() {
   }, []);
 
   if (loading) {
-    return <div className="catalog-loading">⏳ Đang tải bộ sưu tập...</div>;
+    return <div className="catalog-loading">Đang tải bộ sưu tập...</div>;
   }
 
   return (
     <div className="product-catalog">
       <h1 className="catalog-title">
-        Chào mừng đến với Bonnie Store - Bộ sưu tập sản phẩm của chúng tôi
+        Chào mừng đến với shop - Bộ sưu tập sản phẩm của chúng tôi
       </h1>
 
       <div className="catalog-grid">
