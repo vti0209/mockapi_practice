@@ -39,7 +39,7 @@ function ProductList() {
       try {
         await productAPI.delete(id);
         setProducts(products.filter(p => p.id !== id));
-        showToast('Xóa sản phẩm thành công!');
+        showToast('Xóa sản phẩm thành công');
       } catch (error) {
         console.error(error);
         showToast('Xóa thất bại!', 'error');

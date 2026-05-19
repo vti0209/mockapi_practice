@@ -1,15 +1,19 @@
+/* =========================
+   PRODUCT ITEM CSS
+========================= */
+
 .product-item-card {
-  border: 1px solid #ffe0b2;
-  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
   padding: 15px;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(255, 140, 0, 0.12);
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.08);
   transition: all 0.3s ease;
 }
 
 .product-item-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 18px rgba(255, 140, 0, 0.22);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.18);
 }
 
 .product-item-image {
@@ -24,11 +28,11 @@
   margin: 10px 0;
   font-size: 18px;
   font-weight: 600;
-  color: #333;
+  color: #0f172a;
 }
 
 .product-item-price {
-  color: #ff8c00;
+  color: #2563eb;
   margin: 5px 0;
   font-size: 16px;
   font-weight: bold;
@@ -43,7 +47,7 @@
 .btn-edit {
   flex: 1;
   padding: 10px;
-  background-color: #ff9800;
+  background-color: #2563eb;
   color: white;
   border: none;
   border-radius: 6px;
@@ -53,14 +57,13 @@
 }
 
 .btn-edit:hover {
-  background-color: #f57c00;
-  transform: translateY(-1px);
+  background-color: #1d4ed8;
 }
 
 .btn-delete {
   flex: 1;
   padding: 10px;
-  background-color: #ff7043;
+  background-color: #dc2626;
   color: white;
   border: none;
   border-radius: 6px;
@@ -70,6 +73,5 @@
 }
 
 .btn-delete:hover {
-  background-color: #f4511e;
-  transform: translateY(-1px);
+  background-color: #b91c1c;
 }

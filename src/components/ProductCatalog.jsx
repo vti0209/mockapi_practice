@@ -27,7 +27,7 @@ function ProductCatalog() {
   return (
     <div className="product-catalog">
       <h1 className="catalog-title">
-        Chào mừng đến với shop - Bộ sưu tập sản phẩm của chúng tôi
+        Welcome to my Shop
       </h1>
 
       <div className="catalog-grid">

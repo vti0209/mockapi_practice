@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <nav className="app-navbar">
-          <h2 className="navbar-brand">Shop</h2>
+          <h2 className="navbar-brand">Home</h2>
           <Link to="/" className="navbar-link">
             <p>Xem Sản Phẩm</p>
           </Link>

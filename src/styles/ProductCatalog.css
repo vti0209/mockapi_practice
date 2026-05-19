@@ -1,3 +1,7 @@
+/* =========================
+   PRODUCT CATALOG CSS
+========================= */
+
 .product-catalog {
   padding: 30px 20px;
   max-width: 1200px;
@@ -8,13 +12,13 @@
   text-align: center;
   padding: 50px;
   font-size: 18px;
-  color: #ff8c00;
+  color: #2563eb;
 }
 
 .catalog-title {
   text-align: center;
   margin-bottom: 40px;
-  color: #ff8c00;
+  color: #0f172a;
   font-size: 32px;
   font-weight: 700;
 }
@@ -26,17 +30,17 @@
 }
 
 .catalog-card {
-  border: 1px solid #ffe0b2;
-  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
   overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 4px 12px rgba(255, 140, 0, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+  transition: all 0.3s ease;
 }
 
 .catalog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.25);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
 }
 
 .catalog-card-image {
@@ -46,19 +50,19 @@
 }
 
 .catalog-card-info {
-  padding: 15px;
+  padding: 16px;
 }
 
 .catalog-card-name {
   margin: 0 0 8px 0;
-  font-size: 16px;
-  color: #333;
+  font-size: 17px;
+  color: #0f172a;
   font-weight: 600;
 }
 
 .catalog-card-price {
   margin: 0;
-  color: #ff8c00;
+  color: #2563eb;
   font-weight: bold;
   font-size: 18px;
 }

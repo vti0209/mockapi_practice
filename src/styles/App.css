@@ -1,27 +1,32 @@
+/* =========================
+   NAVBAR CSS
+========================= */
+
 .app-navbar {
   padding: 15px 20px;
-  background-color: #ff8c00; /* cam */
+  background-color: #0f172a;
   display: flex;
   gap: 25px;
   align-items: center;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.4);
 }
 
 .navbar-brand {
   margin: 0;
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .navbar-link {
-  color: #fff;
+  color: #cbd5e1;
   text-decoration: none;
   font-weight: 500;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar-link:hover {
-  opacity: 0.8;
+  color: #60a5fa;
 }
 
 .navbar-link p {
