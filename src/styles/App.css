@@ -1,0 +1,30 @@
+.app-navbar {
+  padding: 15px 20px;
+  background-color: #ff8c00; /* cam */
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-link:hover {
+  opacity: 0.8;
+}
+
+.navbar-link p {
+  margin: 0;
+  padding: 0;
+}
