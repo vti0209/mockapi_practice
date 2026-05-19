@@ -6,7 +6,6 @@ function ProductForm({ product, onSubmit, onCancel }) {
     name: '',
     price: '',
     image: '',
-    category: ''
   });
 
   useEffect(() => {
@@ -15,14 +14,12 @@ function ProductForm({ product, onSubmit, onCancel }) {
         name: product.name || '',
         price: product.price || '',
         image: product.image || '',
-        category: product.category || ''
       });
     } else {
       setFormData({
         name: '',
         price: '',
         image: '',
-        category: ''
       });
     }
   }, [product]);
@@ -97,21 +94,6 @@ function ProductForm({ product, onSubmit, onCancel }) {
             placeholder="https://example.com/image.jpg"
           />
         </div>
-
-        <div className="form-group">
-          <label className="form-label">
-            Danh mục:
-          </label>
-          <input
-            type="text"
-            name="category"
-            value={formData.category}
-            onChange={handleChange}
-            className="form-input"
-            placeholder="Ví dụ: Áo, Quần, Giày..."
-          />
-        </div>
-
         <div className="form-buttons">
           <button
             type="submit"
